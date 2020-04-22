@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2020-04-22T02:02:40.083Z" agent="5.0 (Windows)" etag="Z3tGa5eGtVOjLuHX5mla" version="13.0.1" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">lZHJDoIwEIafpkcTaI3LVdy3xKBybmiFxsJgqRF9eiEFseGiSQ/Tb/7+sxQRLykWimbxDhiXCDusQGSKMHb7GKPqOOxpyHDsGhApwWpRC3zx4jV0anoXjOeWUANILTIbhpCmPNQWo0rBw5ZdQNpVMxrxDvBDKrs0EEzHho7wsOVLLqK4qewOxiaT0EZcT5LHlMHjC5EZIp4C0CZKCo/LannNXoLVM5Db62CxPuQ3eppsjvtzz5jN/3nyGUHxVP9qXQZta+XF+mAyewM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-22T02:31:05.935Z" agent="5.0 (Windows)" etag="ht8NASRA7F6zurz4n5bY" version="13.0.1" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Board.h/Constructors/Destructors">
+    <mxGraphModel dx="1422" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Board.h and Board Constructor/Destructors&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="10" width="630" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XQVjbtKCl2bdh1NF3s56-2" target="XQVjbtKCl2bdh1NF3s56-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-2" value="&lt;div&gt;&lt;b&gt;System Libraries:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;cstdlib&amp;gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;iostream&amp;gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;Windows.h&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;stdlib.h&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;time.h&amp;gt;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;User Libraries:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;SnakePlayer.h&quot;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="160" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XQVjbtKCl2bdh1NF3s56-3" target="XQVjbtKCl2bdh1NF3s56-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-3" value="&lt;div&gt;&lt;b&gt;Variables:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;frameMax &lt;br&gt;&lt;/div&gt;&lt;div&gt;frame&lt;/div&gt;&lt;div&gt;rows&lt;/div&gt;&lt;div&gt;cols&lt;/div&gt;&lt;div&gt;bIsRun&lt;/div&gt;&lt;div&gt;player&lt;/div&gt;&lt;div&gt;pelletX&lt;/div&gt;&lt;div&gt;pelletY&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="440" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-4" value="&lt;div&gt;&lt;b&gt;Function Prototypes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Board(int,int)&lt;/div&gt;&lt;div&gt;virtual ~Board()&lt;/div&gt;&lt;div&gt;void gameRoom()&lt;/div&gt;&lt;div&gt;void printBoard()&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="650" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-7" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Board.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="110" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XQVjbtKCl2bdh1NF3s56-11" target="XQVjbtKCl2bdh1NF3s56-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-11" value="Board(int rows, int cols)" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;virtual~Board()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="115" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XQVjbtKCl2bdh1NF3s56-13" target="XQVjbtKCl2bdh1NF3s56-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-13" value="&lt;div&gt;this-&amp;gt;rows = rows&lt;/div&gt;&lt;div&gt;this-&amp;gt;cols = cols&lt;/div&gt;&lt;div&gt;srand (time(0))&lt;/div&gt;&lt;div&gt;pelletX = rand() % cols&lt;br&gt;&lt;/div&gt;pelletY = rand() % rows" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="251.25" y="245" width="137.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-15" value="exit" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-18" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Board(int,int)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="267.5" y="115" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XQVjbtKCl2bdh1NF3s56-19" target="XQVjbtKCl2bdh1NF3s56-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-19" value="virtual~Board()" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XQVjbtKCl2bdh1NF3s56-20" target="XQVjbtKCl2bdh1NF3s56-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-20" value="delete player" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVjbtKCl2bdh1NF3s56-21" value="exit" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qyI2qFHQQ_QogcaHKgvj" name="Board-gameRoom()">
+    <mxGraphModel dx="1422" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="JDOxM7exHH1KjUrmYhps-0" />
+        <mxCell id="JDOxM7exHH1KjUrmYhps-1" parent="JDOxM7exHH1KjUrmYhps-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
