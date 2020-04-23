@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-23T02:12:52.180Z" agent="5.0 (Windows)" etag="khs2xksETpgfHcsBn4Gf" version="13.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-04-23T02:14:27.888Z" agent="5.0 (Windows)" etag="d1FU1oZAvmA6eVhIn6vm" version="13.0.1" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Board.h/Constructors/Destructors">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -484,10 +484,10 @@
         <mxCell id="_rETAWOyTxYn7hp6aedw-1" value="&lt;div&gt;&lt;b&gt;System Libraries:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Windows.h&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;vector&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
           <mxGeometry x="70" y="170" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_rETAWOyTxYn7hp6aedw-2" value="&lt;div&gt;&lt;b&gt;Declare Variables:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;currX=0&lt;/div&gt;&lt;div&gt;currY=0&lt;/div&gt;&lt;div&gt;prevX&lt;/div&gt;&lt;div&gt;prevY&lt;/div&gt;&lt;div&gt;length=1&lt;/div&gt;&lt;div&gt;dirX=1&lt;/div&gt;&lt;div&gt;dirY=0&lt;/div&gt;&lt;div&gt;maxRow&lt;/div&gt;&lt;div&gt;maxCol&lt;/div&gt;&lt;div&gt;gameover = false&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
+        <mxCell id="_rETAWOyTxYn7hp6aedw-2" value="&lt;div&gt;&lt;b&gt;Declare Variables:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;currX=0&lt;/div&gt;&lt;div&gt;currY=0&lt;/div&gt;&lt;div&gt;prevX&lt;/div&gt;&lt;div&gt;prevY&lt;/div&gt;&lt;div&gt;length=1&lt;/div&gt;&lt;div&gt;dirX=1&lt;/div&gt;&lt;div&gt;dirY=0&lt;/div&gt;&lt;div&gt;maxRow&lt;/div&gt;&lt;div&gt;maxCol&lt;/div&gt;&lt;div&gt;gameover = false&lt;br&gt;&lt;/div&gt;&lt;div&gt;tailVecX[100]&lt;/div&gt;&lt;div&gt;tailVecY[100]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
           <mxGeometry x="70" y="320" width="110" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="V9Mm9eMf4CX2uZQ0h8Qp-0" value="&lt;div&gt;&lt;b&gt;Function Prototypes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;SnakePlayer(int, int)&lt;/div&gt;&lt;div&gt;virtual ~SnakePlayer()&lt;/div&gt;&lt;div&gt;void setCurX(int)&lt;/div&gt;&lt;div&gt;void setCurY(int)&lt;/div&gt;&lt;div&gt;void setPreX(int)&lt;/div&gt;&lt;div&gt;void setPreY(int&lt;/div&gt;&lt;div&gt;void setLen(int)&lt;/div&gt;&lt;div&gt;int getCurX()&lt;/div&gt;&lt;div&gt;int getCurY()&lt;/div&gt;&lt;div&gt;int getPreX()&lt;/div&gt;&lt;div&gt;int getPreY()&lt;/div&gt;&lt;div&gt;int getLen()&lt;/div&gt;&lt;div&gt;bool getGameOver()&lt;/div&gt;&lt;div&gt;bool setGameOver(bool)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
+        <mxCell id="V9Mm9eMf4CX2uZQ0h8Qp-0" value="&lt;div&gt;&lt;b&gt;Function Prototypes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;SnakePlayer(int, int)&lt;/div&gt;&lt;div&gt;virtual ~SnakePlayer()&lt;/div&gt;&lt;div&gt;void setCurX(int)&lt;/div&gt;&lt;div&gt;void setCurY(int)&lt;/div&gt;&lt;div&gt;void setPreX(int)&lt;/div&gt;&lt;div&gt;void setPreY(int&lt;/div&gt;&lt;div&gt;void setLen(int)&lt;/div&gt;&lt;div&gt;int getCurX()&lt;/div&gt;&lt;div&gt;int getCurY()&lt;/div&gt;&lt;div&gt;int getPreX()&lt;/div&gt;&lt;div&gt;int getPreY()&lt;/div&gt;&lt;div&gt;int getLen()&lt;/div&gt;&lt;div&gt;bool getGameOver()&lt;/div&gt;&lt;div&gt;bool setGameOver(bool)&lt;/div&gt;&lt;div&gt;void addToArry()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
           <mxGeometry x="37.5" y="580" width="175" height="260" as="geometry" />
         </mxCell>
         <mxCell id="V9Mm9eMf4CX2uZQ0h8Qp-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;SnakePlayer(int,int)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
@@ -520,6 +520,14 @@
         <mxCell id="V9Mm9eMf4CX2uZQ0h8Qp-10" value="exit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_uU1Fd6tzmEa3yvkAJ_J-1">
           <mxGeometry x="580" y="240" width="90" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i8WC9EUHakyvyOPnQeBn" name="Page-5">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="wL4SoTlUnpfxRCkZ7fER-0" />
+        <mxCell id="wL4SoTlUnpfxRCkZ7fER-1" parent="wL4SoTlUnpfxRCkZ7fER-0" />
       </root>
     </mxGraphModel>
   </diagram>
